@@ -11,7 +11,7 @@ export default function Refer() {
                 <div className="w-100 h-[100dvh] relative z-50 select-none flex flex-col justify-end">
                     <div className="w-100 bs-white h-[45vh] rounded-t-[30px] pt-[35px] flex flex-col gap-4 items-center justify-center slide-top">
                         <div className="w-100 h-[50vh] flex items-center justify-center absolute top-0 start-50 translate-middle">
-                            <img className='w-[270px] object-cover slide-in-elliptic-top-fwd ' src="../../public/IMG/bull2.png" />
+                            <img className='w-[270px] object-cover slide-in-elliptic-top-fwd ' src="../../IMG/bull2.png" />
                         </div>
                         <div className="w-100 text-center ">
                             <p className='tx-red text-[25px] font-bold font-Poppins'>Have an Invite Code ?</p>

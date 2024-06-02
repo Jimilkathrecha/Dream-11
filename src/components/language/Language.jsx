@@ -27,7 +27,7 @@ export default function Language() {
 
                 <div className="w-100 relative z-50 select-none">
                     <div className={`${handleSplash ? "h-[100dvh]" : "h-[50dvh]"}  w-100 duration-1000 flex items-center justify-center  scale-up-tr`}>
-                        <img className={`w-[250px] object-cover  ${anime}`} src="../../public/IMG/bull.png" />
+                        <img className={`w-[250px] object-cover  ${anime}`} src="../../IMG/bull.png" />
                     </div>
                     <div className={`${handleSplash ? "hidden" : "h-[50dvh]"}  w-100 duration-1000 bs-white  rounded-t-[30px] flex flex-col justify-between slide-t op`}>
                         <div className="flex flex-col items-center justify-center gap-2 px-5 py-4">

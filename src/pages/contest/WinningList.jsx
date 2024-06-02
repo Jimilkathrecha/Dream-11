@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../components/header/Header'
-import lefttextimg from '../../../public/IMG/shapes/Frame-l.png';
-import righttextimg from '../../../public/IMG/shapes/Frame-r.png';
+import lefttextimg from '../../../IMG/shapes/Frame-l.png';
+import righttextimg from '../../../IMG/shapes/Frame-r.png';
 import BottomBar from '../../components/menu/BottomBar';
 import SubIndex from '../../components/header/SubIndex';
 

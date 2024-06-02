@@ -22,7 +22,7 @@ export default function Phone() {
                 <div className="w-100 h-[100svh] relative z-50 select-none flex flex-col justify-end">
                     <div className="w-100 bs-white h-fit rounded-t-[30px] absolute bottom-0 flex flex-col gap-4 items-center justify-end slide-top">
                         <div className="w-100 flex items-center justify-center absolute top-0 start-50 translate-middle">
-                            <img className='w-[270px] object-cover slide-in-elliptic-top-fwd' src="../../public/IMG/bull.png" />
+                            <img className='w-[270px] object-cover slide-in-elliptic-top-fwd' src="../../IMG/bull.png" />
                         </div>
                         <div className="w-100 pt-[130px] pb-">
                             <div className="flex w-100 items-end justify-center gap-1 px-0 mt-4">
