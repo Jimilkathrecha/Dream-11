@@ -1,0 +1,52 @@
+import { MuiOtpInput } from 'mui-one-time-password-input'
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+
+export default function TakeRefer() {
+
+    const [otp, setOtp] = useState('XXXXXX');
+    const navigate = useNavigate();
+
+    const handleChange = (newValue) => {
+        setOtp(newValue)
+    }
+    const handleroute = () => {
+        navigate("/home")
+    }
+
+
+
+    return (
+        <>
+            <div className="min-w-[320px] max-w-[450px] overflow-hidden mx-auto bg-[#192a3c] h-[100svh] relative">
+                <div className="w-100 h-[100svh] absolute top-0 left-0">
+                    <img className='w-100 h-100 object-cover ' src="../../IMG/back.png" alt="" />
+                </div>
+                <div className="w-100 h-[100svh] relative z-50 select-none flex flex-col justify-end">
+                    <div className="w-100 bs-white h-fit rounded-t-[30px] absolute bottom-0 flex flex-col gap-4 items-center justify-end slide-top">
+                        <div className="w-100 flex items-center justify-center absolute top-0 start-50 translate-middle">
+                            <img className='w-[270px] object-cover slide-in-elliptic-top-fwd ' src="../../public/IMG/bull2.png" />
+                        </div>
+                        <div className="pt-[130px] pb-5"> 
+                            <div className="flex w-100 items-end justify-center gap-1 px-4 mt-4">
+                                <form action="" onSubmit={handleroute}>
+                                    <MuiOtpInput type='tel'
+                                    aria-required
+                                        value={otp}
+                                        length={6}
+                                        placeholder="x"
+                                        onChange={handleChange} />
+                                        <button onSubmit={handleroute}></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </>
+    )
+}
